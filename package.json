@@ -25,7 +25,7 @@
     "postcss.config.mjs"
   ],
   "bin": {
-    "artystic": "./bin/artystic.mjs"
+    "artystic": "bin/artystic.mjs"
   },
   "scripts": {
     "dev": "next dev",
