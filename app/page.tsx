@@ -85,7 +85,7 @@ export default function Home() {
               Make it feel <span className="serif-hit text-[#c6a9ff]">authored.</span>
             </h1>
             <p className="max-w-xl text-lg leading-8 text-white/68">
-              Artystic is a cross-agent design-polish skill tailored for Code 5.5 and built to travel across Pi, Codex, Claude Code, Cursor, and other skills-compatible coding agents.
+              Artystic is a cross-agent design-polish skill tailored for GPT 5.5 and built to travel across Pi, Codex, Claude Code, Cursor, and other skills-compatible coding agents.
             </p>
           </div>
 
@@ -143,7 +143,7 @@ export default function Home() {
                 Dark editorial <span className="serif-hit text-[#c6a9ff]">design system</span> for websites that need aura.
               </h2>
               <p className="mt-5 max-w-2xl text-base leading-8 text-white/62">
-                Artystic is tailored for Code 5.5 and built for cross-agent use across Pi, Codex, Claude Code, Cursor, OpenCode, and other coding-agent surfaces that should feel like Open Design, Midjourney, Locomotive, creative tooling launches, AI design labs, agent skill pages, portfolios, and products where visual taste is part of the product.
+                Artystic is tailored for GPT 5.5 and built for cross-agent use across Pi, Codex, Claude Code, Cursor, OpenCode, and other coding-agent surfaces that should feel like Open Design, Midjourney, Locomotive, creative tooling launches, AI design labs, agent skill pages, portfolios, and products where visual taste is part of the product.
               </p>
             </div>
           </div>
@@ -184,7 +184,7 @@ export default function Home() {
             <Rule number="Audit" title="Find the template smell" body="Detect same-font hierarchy, card-grid reflexes, fake editorial labels, and image containers that mean nothing." />
             <Rule number="Shape" title="Lock visual direction" body="Define the scene, palette strategy, type roles, asset slots, motion personality, and what the page must refuse." />
             <Rule number="Polish" title="Cut until it lands" body="Remove redundant copy, swap filled CTAs for restraint, strengthen the hero, and make every block earn its footprint." />
-            <Rule number="Compat" title="Travel across agents" body="Built for Code 5.5 first, but shaped to install and read cleanly in Pi, Codex, Claude Code, Cursor, OpenCode, and other skills-compatible agent setups." />
+            <Rule number="Compat" title="Travel across agents" body="Tailored for GPT 5.5, but shaped to install and read cleanly in Pi, Codex, Claude Code, Cursor, OpenCode, and other skills-compatible agent setups." />
           </div>
         </div>
       </section>

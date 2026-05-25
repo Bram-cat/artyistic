@@ -8,7 +8,7 @@ It ships as:
 - a tiny CLI entrypoint
 - a bundled Pi skill at `skills/artystic/SKILL.md`
 
-Artystic is a cross-agent design-polish skill for pages that already work but still feel generic. It is tailored for Code 5.5 and works cleanly across Pi, Codex, Claude Code, Cursor, OpenCode, and other skill-compatible coding agents. It pushes toward stronger visual subject matter, fewer sharper containers, mixed typography with clear roles, meaningful image plates, and restrained motion that guides attention.
+Artystic is a cross-agent design-polish skill for pages that already work but still feel generic. It is tailored for GPT 5.5 and works cleanly across Pi, Codex, Claude Code, Cursor, OpenCode, and other skill-compatible coding agents. It pushes toward stronger visual subject matter, fewer sharper containers, mixed typography with clear roles, meaningful image plates, and restrained motion that guides attention.
 
 ## How to use it
 
@@ -28,7 +28,7 @@ Artystic is built to install and run as a reusable skill, not just as a website 
 
 It is designed for cross-agent use, including:
 
-- Code 5.5
+- GPT 5.5
 - Pi
 - Codex
 - Claude Code
