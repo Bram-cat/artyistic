@@ -12,30 +12,10 @@ Artystic is for pages that already work but still feel generic. It pushes toward
 
 ## How to use it
 
-### Local development
-
-```bash
-bun install
-bun run dev
-bun run check
-```
-
-### CLI
+### Install
 
 ```bash
 npx artystic
-npx artystic brief
-npx artystic skill
-```
-
-- `npx artystic` — show help
-- `npx artystic brief` — print the critique brief
-- `npx artystic skill` — print the bundled skill path
-
-### Bundled Pi skill
-
-```text
-skills/artystic/SKILL.md
 ```
 
 Use it when a page feels too safe, too same-font, too SaaS-like, too card-heavy, or visually under-authored.

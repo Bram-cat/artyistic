@@ -216,12 +216,12 @@ export default function Home() {
           <div className="reveal">
             <p className="kicker">Install</p>
             <h2 className="mt-4 text-4xl font-semibold tracking-[-0.075em] text-white sm:text-6xl">
-              Run the <span className="serif-hit text-[#c6a9ff]">skill.</span>
+              Run <span className="serif-hit text-[#c6a9ff]">npx artystic</span>
             </h2>
           </div>
           <div className="grid gap-6 lg:grid-cols-[0.7fr_0.3fr]">
             <div className="plate reveal p-6">
-              <p className="font-[var(--font-mono)] text-[0.66rem] uppercase tracking-[0.24em] text-white/44">npx command</p>
+              <p className="font-[var(--font-mono)] text-[0.66rem] uppercase tracking-[0.24em] text-white/44">install</p>
               <pre className="mt-4 overflow-x-auto text-2xl font-semibold tracking-[-0.04em] text-[#c6a9ff]"><code>npx artystic</code></pre>
               <div className="mt-6 flex flex-wrap gap-3">
                 <CopyCommand command="npx artystic" />
