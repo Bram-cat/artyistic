@@ -18,6 +18,8 @@ Artystic is for pages that already work but still feel generic. It pushes toward
 npx artystic
 ```
 
+This runs the skills.sh installer for the Artystic skill and installs it into your compatible agent setup.
+
 Use it when a page feels too safe, too same-font, too SaaS-like, too card-heavy, or visually under-authored.
 
 ## Tech stack
