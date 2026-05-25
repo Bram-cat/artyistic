@@ -10,61 +10,31 @@ It ships as:
 
 ## Showcase
 
-### Hero / overall visual direction
+<p align="center">
+  <img src="./public/assets/artystic-hero.png" alt="Artystic hero showcase" width="900" />
+</p>
 
-![Artystic hero showcase](./public/assets/artystic-hero.png)
+<p align="center">
+  <img src="./public/assets/artystic-capabilities.png" alt="Artystic capabilities showcase" width="900" />
+</p>
 
-### How it thinks: field, structure, and source gravity
+<p align="center">
+  <img src="./public/assets/artystic-command-surface.png" alt="Artystic command surface showcase" width="900" />
+</p>
 
-![Artystic field map](./public/assets/artystic-field-map.png)
-
-### Design gates / critique workflow
-
-![Artystic capabilities](./public/assets/artystic-capabilities.png)
-
-### Prompt direction and output quality
-
-![Artystic prompt refinery](./public/assets/artystic-prompt-refinery.png)
-
-### Command surface / how to use it
-
-![Artystic command surface](./public/assets/artystic-command-surface.png)
-
-## What it is
-
-Artystic is for pages that already work but still feel generic.
-
-It pushes toward:
-
-- stronger visual subject matter
-- fewer, sharper containers
-- mixed typography with clear roles
-- meaningful image plates instead of filler chrome
-- restrained motion that guides attention
+Artystic is for pages that already work but still feel generic. It pushes toward stronger visual subject matter, fewer sharper containers, mixed typography with clear roles, meaningful image plates, and restrained motion that guides attention.
 
 ## How to use it
 
-### 1. Run the site locally
-
-Install dependencies:
+### Local development
 
 ```bash
 bun install
-```
-
-Start the site locally:
-
-```bash
 bun run dev
-```
-
-Run checks:
-
-```bash
 bun run check
 ```
 
-### 2. Use the CLI
+### CLI
 
 ```bash
 npx artystic
@@ -72,15 +42,11 @@ npx artystic brief
 npx artystic skill
 ```
 
-Commands:
-
 - `npx artystic` — show help
-- `npx artystic brief` — print the Artystic critique brief
+- `npx artystic brief` — print the critique brief
 - `npx artystic skill` — print the bundled skill path
 
-### 3. Use the bundled Pi skill
-
-Skill file:
+### Bundled Pi skill
 
 ```text
 skills/artystic/SKILL.md
@@ -94,7 +60,7 @@ Use it when a page feels too safe, too same-font, too SaaS-like, too card-heavy,
 - React 19
 - TypeScript
 - Tailwind CSS 4
-- Bun for local package management
+- Bun
 
 ## Project structure
 
@@ -105,15 +71,6 @@ bin/artystic.mjs      CLI entrypoint
 skills/artystic/      Bundled Pi skill
 public/assets/        Image plates and visual assets
 ```
-
-## Design posture
-
-- editorial issue-like structure
-- dark ultraviolet / cobalt / ember / porcelain palette
-- minimal copy
-- meaningful image plates
-- mixed font roles
-- text-first hover treatment for buttons
 
 ## Repository
 
