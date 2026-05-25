@@ -54,7 +54,7 @@ button, input { font: inherit; }
 .pixel-button {
   position: relative;
   isolation: isolate;
-  overflow: hidden;
+  flex-shrink: 0;
   background: transparent !important;
 }
 
@@ -68,25 +68,23 @@ button, input { font: inherit; }
 
 .pixel-button .pixel-text {
   position: relative;
-  display: inline-block;
+  display: inline-grid;
+  min-width: max-content;
 }
 
-.pixel-button .pixel-text::after {
-  content: attr(data-text);
-  display: block;
+.pixel-button .pixel-text__sizer,
+.pixel-button .pixel-text__label {
+  grid-area: 1 / 1;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.pixel-button .pixel-text__sizer {
   visibility: hidden;
   pointer-events: none;
-  white-space: nowrap;
-  font-family: var(--font-serif), serif;
-  font-style: italic;
-  letter-spacing: -0.025em;
 }
 
 .pixel-button .pixel-text__label {
-  position: absolute;
-  inset: 0;
-  display: inline-block;
-  white-space: nowrap;
   transition:
     color 180ms ease,
     text-shadow 180ms ease,

@@ -16,7 +16,10 @@ function Nav() {
           <a href="#proof" className="hover:text-[#c6a9ff]">Proof</a>
           <a href="#install" className="hover:text-[#c6a9ff]">Install</a>
           <a href="https://github.com/Bram-cat/artyistic" className="pixel-button inline-flex items-center gap-2 border border-[#9b5cff]/55 px-3 py-2 text-[#c6a9ff]">
-            <span className="pixel-text" data-text="Star · 0.1K"><span className="pixel-text__label">Star · 0.1K</span></span>
+            <span className="pixel-text">
+              <span className="pixel-text__sizer">Star · 0.1K</span>
+              <span className="pixel-text__label">Star · 0.1K</span>
+            </span>
             <ArrowTopRightOnSquareIcon className="h-3.5 w-3.5" />
           </a>
         </nav>
@@ -82,10 +85,16 @@ export default function Home() {
 
           <div className="flex flex-wrap gap-3">
             <a href="#install" className="pixel-button inline-flex items-center gap-2 border border-[#9b5cff]/60 px-5 py-3 text-sm font-semibold text-[#c6a9ff]">
-              <span className="pixel-text" data-text="Use npx artystic"><span className="pixel-text__label">Use npx artystic</span></span> <ArrowLongRightIcon className="h-4 w-4" />
+              <span className="pixel-text">
+                <span className="pixel-text__sizer">Use npx artystic</span>
+                <span className="pixel-text__label">Use npx artystic</span>
+              </span>{" "}<ArrowLongRightIcon className="h-4 w-4" />
             </a>
             <a href="#method" className="pixel-button inline-flex items-center gap-2 border border-white/12 px-5 py-3 text-sm font-semibold text-white/72">
-              <span className="pixel-text" data-text="Read method"><span className="pixel-text__label">Read method</span></span>
+              <span className="pixel-text">
+                <span className="pixel-text__sizer">Read method</span>
+                <span className="pixel-text__label">Read method</span>
+              </span>
             </a>
           </div>
 
@@ -217,7 +226,10 @@ export default function Home() {
               <div className="mt-6 flex flex-wrap gap-3">
                 <CopyCommand command="npx artystic" />
                 <a href="https://github.com/Bram-cat/artyistic" className="pixel-button inline-flex items-center gap-2 border border-white/12 px-5 py-3 text-sm font-semibold text-white/72">
-                  <span className="pixel-text" data-text="Repository"><span className="pixel-text__label">Repository</span></span> <ArrowTopRightOnSquareIcon className="h-4 w-4" />
+                  <span className="pixel-text">
+                    <span className="pixel-text__sizer">Repository</span>
+                    <span className="pixel-text__label">Repository</span>
+                  </span>{" "}<ArrowTopRightOnSquareIcon className="h-4 w-4" />
                 </a>
               </div>
               <p className="mt-5 text-sm leading-7 text-white/62">

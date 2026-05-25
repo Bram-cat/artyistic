@@ -8,20 +8,6 @@ It ships as:
 - a tiny CLI entrypoint
 - a bundled Pi skill at `skills/artystic/SKILL.md`
 
-## Showcase
-
-<p align="center">
-  <img src="./public/assets/artystic-hero.png" alt="Artystic hero showcase" width="900" />
-</p>
-
-<p align="center">
-  <img src="./public/assets/artystic-capabilities.png" alt="Artystic capabilities showcase" width="900" />
-</p>
-
-<p align="center">
-  <img src="./public/assets/artystic-command-surface.png" alt="Artystic command surface showcase" width="900" />
-</p>
-
 Artystic is for pages that already work but still feel generic. It pushes toward stronger visual subject matter, fewer sharper containers, mixed typography with clear roles, meaningful image plates, and restrained motion that guides attention.
 
 ## How to use it

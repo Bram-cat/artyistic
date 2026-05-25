@@ -19,7 +19,8 @@ export function CopyCommand({ command }: { command: string }) {
       className="pixel-button inline-flex items-center gap-2 border border-[#9b5cff]/60 px-5 py-3 text-sm font-semibold text-[#c6a9ff]"
     >
       <ClipboardDocumentIcon className="h-4 w-4" />
-      <span className="pixel-text" data-text="Copy command">
+      <span className="pixel-text">
+        <span className="pixel-text__sizer">Copy command</span>
         <span className="pixel-text__label">{copied ? "Copied" : "Copy command"}</span>
       </span>
     </button>
