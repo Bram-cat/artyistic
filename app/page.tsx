@@ -1,4 +1,5 @@
 import { ArrowLongRightIcon, ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 import { CopyCommand } from "@/components/copy-command";
 import { VisualPlate } from "@/components/visual-plate";
@@ -9,7 +10,12 @@ function Nav() {
   return (
     <header className="sticky top-0 z-30 border-b border-white/10 bg-[#05050a]/72 py-5 font-[var(--font-mono)] text-[0.66rem] uppercase tracking-[0.24em] text-white/45 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
-        <a href="#top" className="text-white/76 hover:text-[#c6a9ff]">Artystic / Skill</a>
+        <a href="#top" className="flex items-center gap-3 text-white/76 hover:text-[#c6a9ff]">
+          <span className="relative h-9 w-9 overflow-hidden rounded-full border border-white/10 bg-white/[0.02]">
+            <Image src="/assets/artystic-logo.png" alt="Artystic logo" fill className="object-cover" sizes="36px" />
+          </span>
+          <span>Artystic / Skill</span>
+        </a>
         <nav className="flex items-center gap-5">
           <a href="#field" className="hover:text-[#c6a9ff]">Field</a>
           <a href="#method" className="hover:text-[#c6a9ff]">Method</a>

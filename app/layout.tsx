@@ -12,6 +12,11 @@ const manrope = Manrope({ variable: "--font-manrope", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Artystic — Design-polish skill",
   description: "A design-polish skill for authored, image-led, editorial web interfaces.",
+  icons: {
+    icon: "/assets/artystic-logo.png",
+    shortcut: "/assets/artystic-logo.png",
+    apple: "/assets/artystic-logo.png",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
